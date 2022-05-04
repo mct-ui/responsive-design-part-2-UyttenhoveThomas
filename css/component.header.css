@@ -5,12 +5,17 @@
 */
 
 .c-header__nav {
-}
-
-@media (min-width: 992px) {
+    display: none;
+  }
+  
+  @media (min-width: 992px) {
     .c-header {
+      display: flex;
+      gap: 24px;
+      justify-content: space-between;
     }
-
+  
     .c-header__nav {
+      display: block;
     }
-}
+  }
